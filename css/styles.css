@@ -1,0 +1,196 @@
+/****************************Tags attribute****************************/
+
+body {
+  font-family: "Montserrat", sans-serif;
+  text-align: center;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Montserrat" sans-serif;
+  font-weight: bold;
+}
+
+p {
+  color: #8f8f8f;
+  font-weight: 600;
+}
+
+/**************************** Class attribute****************************/
+.container-fluid {
+  padding: 7% 15%;
+}
+
+.section-heading {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+/**************************** Navbar ****************************/
+
+.navbar {
+  padding: 0 0 4.5rem 0;
+}
+
+.navbar-brand {
+  font-family: "Ubuntu", sans-serif;
+  font-size: 2.5rem;
+  font-weight: 500;
+}
+
+.nav-item {
+  padding: 0 15px;
+}
+
+.nav-link {
+  font-family: "Montserrat" sans-serif;
+  font-size: 1.2rem;
+  font-weight: 300;
+}
+
+/**************************** Title ****************************/
+
+#title {
+  background-color: #ff4c68;
+  text-align: left;
+}
+
+#title .container-fluid {
+  padding: 3% 15% 7%;
+}
+
+.hero-text {
+  color: white;
+  font-family: "Montserrat", sans-serif;
+  font-size: 3.5rem;
+  line-height: 1.5;
+  font-weight: 900;
+}
+
+#hero-image {
+  width: 60%;
+  max-width: 300px;
+  transform: rotate(20deg);
+  position: absolute;
+  left: 20%;
+}
+
+@media (max-width: 990px) {
+  #hero-image {
+    position: static;
+    transform: rotate(0);
+    text-align: center;
+  }
+}
+
+/* Button */
+
+.download-button {
+  margin: 5% 3% 5% 0;
+}
+
+/**************************** Features ****************************/
+
+#features {
+  background-color: white;
+  padding: 5% 15%;
+  position: relative;
+}
+
+.feature-title {
+  font-size: 1.5rem;
+}
+
+.features-logo {
+  font-size: 4rem;
+  color: #ef8172;
+  margin-bottom: 20px;
+}
+
+.features-logo:hover {
+  color: #ff4c68;
+  margin-bottom: 20px;
+}
+
+.feature-box {
+  padding: 5%;
+}
+
+/**************************** Testimonial ****************************/
+
+#testimonials {
+  background-color: #ef8172;
+  color: white;
+}
+
+.testimonial-text {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+.testimonial-image {
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+
+/**************************** Press ****************************/
+
+#press {
+  padding: 3%;
+  background-color: #ef8172;
+  margin-top: -1px;
+}
+
+.press-logo {
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+
+/**************************** Pricing ****************************/
+
+#pricing {
+  padding: 100px;
+}
+
+.pricing-column {
+  padding: 3% 2%;
+}
+
+.price-title {
+  font-size: 1.5rem;
+}
+
+.price-text {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+/**************************** CTA ****************************/
+
+#cta {
+  background-color: #ff4c68;
+}
+
+.cta-text {
+  font-family: "Montserrat", sans-serif;
+  font-size: 3rem;
+  line-height: 1.5;
+  font-weight: 900;
+  color: white;
+}
+
+/**************************** Footer ****************************/
+
+#footer {
+  background-color: white;
+  padding: 3% 7%;
+}
+
+.social-media {
+  padding: 20px;
+}
+
+.social-icon {
+  padding: 0 10px;
+}
